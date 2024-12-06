@@ -1,0 +1,28 @@
+{
+    "options": {
+        "schema": "web_technology_class",
+        "table": "time_slots",
+        "columns": [
+            "slot_id",
+            "date_time",
+            "available_seats"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "slot_id"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

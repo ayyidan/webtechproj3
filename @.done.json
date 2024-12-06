@@ -1,0 +1,20 @@
+{
+    "end": "2024-12-04 13:34:21",
+    "dataBytes": 349,
+    "tableDataBytes": {
+        "web_technology_class": {
+            "time_slots": 144,
+            "students": 205
+        }
+    },
+    "tableRows": {
+        "web_technology_class": {
+            "time_slots": 6,
+            "students": 3
+        }
+    },
+    "chunkFileBytes": {
+        "web_technology_class@time_slots@@0.tsv.zst": 144,
+        "web_technology_class@students@@0.tsv.zst": 205
+    }
+}

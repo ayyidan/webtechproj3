@@ -1,0 +1,32 @@
+{
+    "options": {
+        "schema": "web_technology_class",
+        "table": "students",
+        "columns": [
+            "id",
+            "first_name",
+            "last_name",
+            "project_title",
+            "email",
+            "phone",
+            "time_slot"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "id"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

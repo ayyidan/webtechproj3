@@ -1,0 +1,18 @@
+{
+    "schema": "web_technology_class",
+    "includesDdl": true,
+    "includesViewsDdl": true,
+    "includesData": true,
+    "tables": [
+        "students",
+        "time_slots"
+    ],
+    "views": [],
+    "events": [],
+    "functions": [],
+    "procedures": [],
+    "basenames": {
+        "students": "web_technology_class@students",
+        "time_slots": "web_technology_class@time_slots"
+    }
+}
